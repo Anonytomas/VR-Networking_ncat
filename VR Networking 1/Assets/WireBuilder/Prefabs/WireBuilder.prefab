@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 541287798638889147}
   - component: {fileID: 541287798638889146}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WireBuilder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,6 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541287798638889148}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,7 +33,6 @@ Transform:
   - {fileID: 541287800083086103}
   - {fileID: 541287799911911900}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &541287798638889146
 MonoBehaviour:
@@ -63,14 +63,19 @@ MonoBehaviour:
   firstSegment: {fileID: 0}
   endAnchorTemp: {fileID: 0}
   plugTemp: {fileID: 0}
-  startAnchorPoint: {fileID: 1229081711585430608, guid: 4da736580b202eb4486768be93599f10, type: 3}
+  startAnchorPoint: {fileID: 1229081711585430608, guid: 4da736580b202eb4486768be93599f10,
+    type: 3}
   segment: {fileID: 4721452859494924073, guid: 849875b46444f03428e4827a73935668, type: 3}
-  segmentNoPhysics: {fileID: 4721452859494924073, guid: 2f6f00131ed85584dbbee855f7fc0bb5, type: 3}
-  endAnchorPoint: {fileID: 2306256389110725653, guid: 559da952238d1e64c86a4d71f980a14b, type: 3}
-  plugObjt: {fileID: 3749660500698215857, guid: 1b6ad518bf036ee45b651ba015d0f3cf, type: 3}
+  segmentNoPhysics: {fileID: 4721452859494924073, guid: 2f6f00131ed85584dbbee855f7fc0bb5,
+    type: 3}
+  endAnchorPoint: {fileID: 2306256389110725653, guid: 559da952238d1e64c86a4d71f980a14b,
+    type: 3}
+  plugObjt: {fileID: 3749660500698215857, guid: 1b6ad518bf036ee45b651ba015d0f3cf,
+    type: 3}
   selectPosition: {x: 0, y: 0, z: 0}
   mousePossHelper: {fileID: 541287800083086103}
-  presetJoint: {fileID: 2655988077585873504, guid: abc25b6363fdfea44958d0fb6b73e3c5, type: 2}
+  presetJoint: {fileID: 2655988077585873504, guid: abc25b6363fdfea44958d0fb6b73e3c5,
+    type: 2}
 --- !u!1 &541287799911911904
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,7 +88,7 @@ GameObject:
   - component: {fileID: 541287799911911901}
   - component: {fileID: 541287799911911902}
   - component: {fileID: 541287799911911903}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WireRender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,13 +102,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541287799911911904}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 541287798638889147}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &541287799911911901
 MonoBehaviour:
@@ -187,7 +192,7 @@ GameObject:
   - component: {fileID: 541287800083086104}
   - component: {fileID: 541287800083086105}
   - component: {fileID: 541287800083086106}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Helper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,13 +206,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541287800083086107}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.8875519, y: 0.16672032, z: -0.279847}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 541287798638889147}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &541287800083086104
 MeshFilter:
@@ -267,8 +272,16 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541287800083086107}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
