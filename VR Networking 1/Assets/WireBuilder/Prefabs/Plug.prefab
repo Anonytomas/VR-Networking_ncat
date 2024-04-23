@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3749660499205985923}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: pos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 3749660500384815451}
   - component: {fileID: 3749660500384815449}
   - component: {fileID: 3749660500384815450}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Wire_female
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 3749660500698215857}
   - component: {fileID: 3749660500698215856}
   - component: {fileID: 4810950010921481706}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Plug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,6 +169,10 @@ MonoBehaviour:
   endAnchor: {fileID: 0}
   endAnchorRB: {fileID: 0}
   wireController: {fileID: 0}
+  connectedMaterial: {fileID: 0}
+  unConnectedMaterial: {fileID: 0}
+  targetRenderer: {fileID: 0}
+  materialIndex: 1
 --- !u!65 &4810950010921481706
 BoxCollider:
   m_ObjectHideFlags: 0
