@@ -3,7 +3,14 @@ guid: 9dec0f85036a2b64dbf7555e2d70c96b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - plugPosition: {instanceID: 0}
+  - endAnchor: {instanceID: 0}
+  - endAnchorRB: {instanceID: 0}
+  - wireController: {instanceID: 0}
+  - connectedMaterial: {instanceID: 0}
+  - unConnectedMaterial: {instanceID: 0}
+  - targetRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
